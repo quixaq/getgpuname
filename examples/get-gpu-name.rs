@@ -2,8 +2,8 @@ use getgpuname::get_gpu_name;
 
 fn main() {
     if let Some(gpu) = get_gpu_name() {
-        println!("{}", gpu)
+        println!("{}", gpu);
     } else {
-        panic!()
+        panic!();
     }
 }
