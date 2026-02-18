@@ -1,9 +1,13 @@
 [package]
 name = "getgpuname"
-description = "Gets the GPU name from the PCI-ID database using either the provided parameters or the ones in /sys/class/drm/"
+description = "Gets the GPU name from the PCI-IDS database using either the provided parameters or the ones in /sys/class/drm/"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
+repistory = "https://github.com/quixaq/getgpuname"
+readme = "README.md"
+keywords = ["gpu", "system-info", "linux", "pci", "pci-ids", "hardware"]
+categories = ["hardware-support"]
 
 [dependencies]
 phf = "0.13.1"
