@@ -1,0 +1,13 @@
+[package]
+name = "getgpuname"
+description = "Gets the GPU name from the PCI-ID database using either the provided parameters or getting them from /sys/class/drm/."
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+phf = "0.13.1"
+
+[build-dependencies]
+pci-ids = "0.2.6"
+phf_codegen = "0.13.1"
