@@ -20,7 +20,7 @@ pub fn get_gpu_name_from_id(
     PCI_IDS.get(&generic_key).map(|&s| s.to_string())
 }
 
-// Gets the gpu ids from /sys/class/drm and looks them up in PCI-IDS database
+/// Gets the gpu ids from /sys/class/drm and looks them up in PCI-IDS database
 pub fn get_gpu_name() -> Option<String> {
     let drm_path = "/sys/class/drm";
 
