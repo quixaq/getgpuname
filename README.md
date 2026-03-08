@@ -29,6 +29,7 @@ fn main() {
 ```
 
 ## Benchmarks:
+These benchmarks were conducted on Ryzen 7 7700X using hyperfine.
 get-gpu-name()
 ```bash
 Benchmark 1: ./get-gpu-name
