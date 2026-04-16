@@ -6,6 +6,7 @@ edition = "2024"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/quixaq/getgpuname"
 readme = "README.md"
+authors = ["Quixaq <quixaq@tutamail.com>"]
 keywords = ["gpu", "system-info", "linux", "pci", "hardware"]
 categories = ["hardware-support"]
 
